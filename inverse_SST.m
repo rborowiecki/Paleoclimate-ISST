@@ -1,3 +1,7 @@
+% Any use of this software must refer to the publication:
+% Ryan Borowiecki, Vadim A. Kravchinsky, Mirko van der Baan, Roberto Henry Herrera, 2023. 
+% The Synchrosqueezing Transform to evaluate paleoclimate cyclicity. Computers and Geosciences, in press.
+
 clc; close all; clear all; clc
 data=csvread('synth_data.csv');
 st=data(:,1); t=data(:,2);
